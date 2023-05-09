@@ -292,7 +292,8 @@ const Checkout = () => {
         <hr />
         {state.length ? <ShowCheckout /> : <EmptyCart />}
       </div>
-      <Footer />
+      <Footer/>
+  
     </>
   );
 };

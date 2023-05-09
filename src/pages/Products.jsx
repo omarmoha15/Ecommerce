@@ -6,7 +6,8 @@ const Products = () => {
     <>
       <Navbar />
       <Product />
-      <Footer />
+      <Footer/>
+     
     </>
   )
 }

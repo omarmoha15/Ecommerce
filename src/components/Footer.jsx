@@ -1,22 +1,60 @@
-import React from "react";
+import "./Footer.css"
+
+import React from 'react'
 
 const Footer = () => {
   return (
-    <>
-      <footer className="mb-0 text-center">
-        <div className="d-flex align-items-center justify-content-center pb-5">
-          <div className="col-md-6">
-            <p className="mb-3 mb-md-0">Made with ❤️ by {" "}
-              <a  href="https://sahibsingh.vercel.app" className="text-decoration-underline text-dark fs-5" target="_blank" rel="noreferrer">Sahib Singh</a>
-            </p>
-            <a className="text-dark fs-4" href="https://github.com/ssahibsingh" target="_blank" rel="noreferrer">
-              <i className="fa fa-github"></i>
-            </a>
-          </div>
+    <div className="footer">
+        <div className="top">
+            <div className="">
+                <h1>Omar Moha</h1>
+                <p>Choose your destination now!</p>
+            </div>
+            <div>
+                <a href="/">
+                <i className="fa-brands fa-facebook-square"></i></a>
+                <a href="/">
+                <i className="fa-brands fa-instagram-square"></i></a>
+                <a href="/">
+                <i className="fa-brands fa-twitter-square"></i></a>
+                <a href="/">
+                <i className="fa-brands fa-behance-square"></i></a>
+            </div>
         </div>
-      </footer>
-    </>
-  );
-};
 
-export default Footer;
+
+        <div className="lower">
+            <div>
+                <h4>Project</h4>
+                <a href="/">changelog</a>
+                <a href="/">sataus</a>
+                <a href="/">Lincese</a>
+                <a href="/">All Vesions</a>
+            </div>
+            <div>
+                <h4>Communtiy</h4>
+                <a href="/">changelog</a>
+                <a href="/">sataus</a>
+                <a href="/">Lincese</a>
+                <a href="/">All Vesions</a>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <a href="/">changelog</a>
+                <a href="/">sataus</a>
+                <a href="/">Lincese</a>
+                <a href="/">All Vesions</a>
+            </div>
+            <div>
+                <h4>Other</h4>
+                <a href="/">changelog</a>
+                <a href="/">sataus</a>
+                <a href="/">Lincese</a>
+                <a href="/">All Vesions</a>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Footer
